@@ -1,0 +1,48 @@
+body{
+    text-align: center;
+}
+
+#welcome{
+    background:linear-gradient(#60ebeb 0%, #27ae60 100%);
+    position: absolute
+    height:600px;
+    display: table;
+    width: 100%;
+    color: blue;
+    height:100%;
+}
+#profile{
+    width: 200px;
+    border-radius:50%;
+    margin-top:50px;
+    margin-bottom:50px;
+        
+}
+
+#name{
+    font-size:32px;
+    line-height: 1.2;
+    font-family: 'Dancing Script', cursive;
+    
+}
+.line{
+    height: 7px;
+    width: 70px;
+    background-color: blueviolet;
+    margin: 8px auto;
+}
+    
+#para{
+    color:deeppink;
+    font-size:25px;
+    width: 500px;
+    text-align: center;
+}
+.my_nav_bar{
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+}
+input,li{
+    background: grey;
+}
